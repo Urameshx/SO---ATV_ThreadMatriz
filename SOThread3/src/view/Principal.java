@@ -1,6 +1,6 @@
 package view;
 
-import controller.Thread_controller;
+import controller.ThreadControllerr;
 
 public class Principal {
 
@@ -14,11 +14,11 @@ public class Principal {
 			}
 		}
 
-		Thread_controller td1 = new Thread_controller(vet_num[0]);
+		ThreadController td1 = new ThreadController(vet_num[0]);
 			td1.start();
-		Thread_controller td2 = new Thread_controller(vet_num[1]);
+		ThreadController td2 = new ThreadController(vet_num[1]);
 			td2.start();
-		Thread_controller td3 = new Thread_controller(vet_num[2]);
+		ThreadController td3 = new ThreadController(vet_num[2]);
 			td3.start();
 	}
 
