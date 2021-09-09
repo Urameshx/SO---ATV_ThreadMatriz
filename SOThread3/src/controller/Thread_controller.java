@@ -1,9 +1,9 @@
 package controller;
 
-public class Thread_controller extends Thread {
+public class ThreadController extends Thread {
 	private int[] vet;
 
-	public Thread_controller(int[] vet) {
+	public ThreadController(int[] vet) {
 		this.vet = vet;
 	}
 
@@ -19,6 +19,6 @@ public class Thread_controller extends Thread {
 			aux += vet[i];
 		}
 		
-		System.out.println("Thread nº:" +  getId() + " = " + aux);
+		System.out.println("Thread nÂº:" +  getId() + " = " + aux);
 	}
 }
